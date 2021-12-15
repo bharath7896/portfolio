@@ -1,6 +1,4 @@
 # portfolio.github.io
-<!DOCTYPE html>
-<html>
     <head>
         <title>Samaritan</title>
         <meta charset="UTF-8">
@@ -66,4 +64,3 @@
 			</div>
         </div>
     </body>
-</html>
