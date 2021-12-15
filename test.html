@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Samaritan</title>
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#000000">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="icon" sizes="192x192" href="SAMARITAN/templates/manifest.json">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython.js" integrity="sha256-rA89wPrTJJQFWJaZveKW8jpdmC3t5F9rRkPyBjz8G04=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython_stdlib.js" integrity="sha256-Gnrw9tIjrsXcZSCh/wos5Jrpn0bNVNFJuNJI9d71TDs=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{{url_for('static',filename='phraselist.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static',filename='samaritan.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static',filename='annyang.min.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static',filename='speech.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static',filename='main.js')}}"></script>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static/css',filename='style.css')}}">
+    </head>
+    <body>	
+        <div id="interface">
+			<div id="main">
+				<p>&nbsp;</p>
+				<hr />
+			</div>
+			<div id="marker">
+				<span id="triangle">&#9650</span>
+			</div>
+        </div>
+    </body>
+</html>
+
